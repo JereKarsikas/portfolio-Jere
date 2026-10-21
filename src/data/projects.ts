@@ -345,7 +345,7 @@ export const projects: Project[] = [
     title: "Cat Friends",
     category: "personal",
     description:
-      "A personal React project created to practice component-based frontend development and working with dynamic user interfaces.",
+      "Cat friend is a project created with React Vite and the CSS libary Tachyons. You can add new cat friends with the desired name and city and also search the cat by its name. All cats have their own unique id so when you add a new cat, it's creates a unique looking cat for you. What about removing your cat? Well you can try it! Go ahead check out on GitHub.",
     technologies: ["React", "JavaScript", "CSS"],
     images: ["cat1.png", "cat3.png", "cat2.png", "cat4.png"],
     link: "https://jerekarsikas.github.io/catfriends/",
@@ -355,7 +355,7 @@ export const projects: Project[] = [
     title: "Expenses Tracker",
     category: "personal",
     description:
-      "A personal web application for tracking expenses, created to practice JavaScript programming and interactive application development.",
+      "This is a React project with CSS, where you can add new expeses and check total expenses in the current and previous years. The project was a good practice to understand how components, props and Hooks work.",
     technologies: ["JavaScript", "HTML", "CSS"],
     images: ["expenses1.png", "expenses2.png", "expenses3.png"],
     link: "https://jerekarsikas.github.io/expenses-tracker/",
@@ -365,7 +365,7 @@ export const projects: Project[] = [
     title: "Guess My Number",
     category: "personal",
     description:
-      "An interactive number guessing game developed to practice JavaScript fundamentals, DOM manipulation and application logic.",
+      "This was a Vanilla JavaScrip project with CSS. It's a game where you can guess a random number between 1-20. It gives you hints if the number you guessed is wrong. It also saves your records. This game was good practice on how vanilla JavaScrip works. Go ahead and play yourself on Github!",
     technologies: ["JavaScript", "HTML", "CSS"],
     images: ["guess1.png", "guess2.png", "guess3.png"],
     link: "https://jerekarsikas.github.io/Guess-my-number/",
@@ -375,7 +375,7 @@ export const projects: Project[] = [
     title: "Pig Game",
     category: "personal",
     description:
-      "A browser-based dice game created to practice JavaScript, event handling and application state management.",
+      "A game made with Vanilla JavaScrip and CSS. It's a game where you and a friend try to reach the score of 100 first. If you get the number 1, you lose all of yours unsaved points and your turn. Throw the dice and take the risk or play it safe, save your points and skip your turn.",
     technologies: ["JavaScript", "HTML", "CSS"],
     images: ["pig1.png", "pig2.png", "pig3.png"],
     link: "https://jerekarsikas.github.io/pig-game/",
