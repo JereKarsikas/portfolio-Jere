@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap");
+
+:root {
+  --color-blue: #41b0a3;
+  --color-dark-blue: #2c2b3a;
+  --color-dark: #272730;
+  --color-grey: #e8e8e8;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-bar-color {
+  background-color: var(--color-dark);
+}
+
+.navbar-brand:hover {
+  color: var(--color-blue);
+}
