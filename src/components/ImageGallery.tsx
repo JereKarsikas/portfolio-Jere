@@ -18,8 +18,10 @@ function ImageGallery({ images, title }: ImageGalleryProps) {
   const [activeSlide, setActiveSlide] = useState(0);
   const swiperRef = useRef<SwiperType | null>(null);
 
+  const imageBase = `${import.meta.env.BASE_URL}images/`;
+
   const slides = images.map((image) => ({
-    src: `/images/${image}`,
+    src: `${imageBase}${image}`,
   }));
 
   if (images.length === 0) return null;
@@ -45,7 +47,7 @@ function ImageGallery({ images, title }: ImageGalleryProps) {
               aria-label={`Open ${title} screenshot ${index + 1}`}
             >
               <img
-                src={`/images/${image}`}
+                src={`${imageBase}${image}`}
                 alt={`${title} screenshot ${index + 1}`}
               />
             </button>
